@@ -17,7 +17,7 @@ export default function Home() {
             أهلاً بكم في المساحة الحرة لطلاب مدرسة سان مارك العريقة. هنا نوثق الماضي، ونعيش الحاضر، ونرسم معالم المستقبل بأقلامنا وعدساتنا.
           </p>
           <div className={styles.btnGroup}>
-            <Link href="/academic" className={styles.mainBtn}>ابدأ القراءة</Link>
+            <Link href="/articles" className={styles.mainBtn}>ابدأ القراءة</Link>
             <Link href="/contact" className={styles.outlineBtn}>احجز نسختك المطبوعة</Link>
           </div>
         </div>
