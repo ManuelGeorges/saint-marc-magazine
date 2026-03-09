@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar/Navbar';
 export const metadata = {
+  metadataBase: new URL('https://saint-marc-magazine.vercel.app'),
   title: 'سان مارك | منصة الريادة ',
   description: 'المنصة الإعلامية الرسمية لطلاب مدرسة سان مارك بالإسكندرية - بصمة طالب.. فكر جيل.',
   openGraph: {
