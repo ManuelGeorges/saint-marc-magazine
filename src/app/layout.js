@@ -10,7 +10,7 @@ export const metadata = {
     siteName: 'الريادة',
     images: [
       {
-        url: '/images/icon.png', 
+        url: 'https://saint-marc-magazine.vercel.app/images/icon.png', 
         width: 1200,
         height: 630,
         alt: 'شعار منصة الريادة',
@@ -23,12 +23,12 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'منصة الريادة | سان مارك',
     description: 'المنصة الإعلامية الرسمية لطلاب مدرسة سان مارك',
-    images: ['/images/og-image.png'],
+    images: ['https://saint-marc-magazine.vercel.app/images/icon.png'],
   },
 };
 export default function RootLayout({ children }) {
   return (
-    <html lang="ar">
+    <html lang="ar" prefix="og: https://ogp.me/ns#">
       <body>
         <Navbar />
         {children}
